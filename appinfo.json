@@ -1,0 +1,54 @@
+{
+    "appKeys": {
+        "api_key": 0,
+        "five_hash": 3,
+        "invert": 4,
+        "username": 1
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "alicegrey",
+    "longName": "SlushPoolWatcher",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/PebbleSlush.png",
+                "menuIcon": true,
+                "name": "slush_main_icon",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/Diavlo_BLACK_II_37.ttf",
+                "name": "FONT_DIAVLO_HEAVY_44",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:. +-]",
+                "file": "fonts/Diavlo_MEDIUM_II_37.ttf",
+                "name": "FONT_DIAVLO_MEDIUM_39",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Diavlo_LIGHT_II_37.ttf",
+                "name": "FONT_DIAVLO_LIGHT_15",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Diavlo_BOOK_II_37.ttf",
+                "name": "FONT_DIAVLO_15",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "SlushWatcher",
+    "uuid": "ae1f8e33-2e89-431a-a955-5739b41e7548",
+    "versionCode": 1,
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
